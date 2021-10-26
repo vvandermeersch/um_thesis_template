@@ -1,0 +1,41 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r introSetup, include=FALSE}
+rm(list = ls()) ; invisible(gc()) ; set.seed(42)
+library(knitr)
+opts_chunk$set(echo = F, message = F, warning = F, fig.height = 6, fig.width = 6, cache = T)
+```
+
+# Introduction
+
+## Title1
+
+### Subtitle
+
+\lipsum[1]
+
+### Subtitle
+
+\lipsum[2-3]
+
+### Subtitle
+
+\lipsum[4-6]
+
+## Title2
+
+### Subtitle
+
+\lipsum[1-3]
+
+```{r nicefigure, fig.cap="What a nice drawing.", out.width="\\linewidth", fig.align="center", fig.pos="H"}
+include_graphics("figures/nice_figure.jpg", auto_pdf = F)
+```
+
+### Subtitle
+
+\lipsum[4-7]
