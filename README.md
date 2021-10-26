@@ -1,9 +1,9 @@
 # Université de Montpellier thesis template
 
-This is the template developped for PhD students of the Université de Montpellier.
+🎓 This is the template developped for PhD students of the Université de Montpellier.
 A preview of the pdf is available [here](https://gitlab.com/v_vandermeersch/um_thesis_template/-/blob/master/index.pdf).
 
-This template is adapted from **Sylvain Schmitt's** [**PhD template**](https://github.com/sylvainschmitt/PhD).
+👉 This template is adapted from **Sylvain Schmitt's** [**PhD template**](https://github.com/sylvainschmitt/PhD).
 
 ## Prerequesite
 
@@ -34,7 +34,7 @@ git clone git@gitlab.com:v_vandermeersch/um_thesis_template.git
 * Title page
 * Abstract (English and French)
 
-[Rmarkdown files](https://gitlab.com/v_vandermeersch/um_thesis_template/-/tree/master/contents):
+[`Rmarkdown` files](https://gitlab.com/v_vandermeersch/um_thesis_template/-/tree/master/contents):
 
 * Acknowledgments
 * *Résumé substantiel* (in French)
@@ -56,10 +56,11 @@ department: 'UMR 5175 – Centre d’Ecologie Fonctionnelle et Evolutive - CNRS'
 
 ## Adding a chapter
 
-Create a `05-Chapter.Rmd` file in [`/contents`](https://gitlab.com/v_vandermeersch/um_thesis_template/-/tree/master/contents).
+Create a `05-Chapter1.Rmd` file in [`/contents`](https://gitlab.com/v_vandermeersch/um_thesis_template/-/tree/master/contents).
 Add this file in the [`index.Rmd`](https://gitlab.com/v_vandermeersch/um_thesis_template/-/blob/master/index.Rmd):
 ```
 <!-- Call the child documents -->
-```{r body, child = c('contents/01-Acknowledgments.Rmd', 'contents/02-TOC.Rmd', 'contents/03-Resume.Rmd', 'contents/04-Introduction.Rmd')}
+```{r body, child = c('contents/01-Acknowledgments.Rmd', 'contents/02-TOC.Rmd', 'contents/03-Resume.Rmd', 'contents/04-Introduction.Rmd',
+'contents/05-Chapter1.Rmd')}
 ```
 ```
