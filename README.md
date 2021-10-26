@@ -1,6 +1,6 @@
 # Université de Montpellier thesis template
 
-🎓 This is the template developped for **PhD students of the Université de Montpellier**.
+🎓 This is the template developed for **PhD students of the Université de Montpellier**.
 A preview of the pdf is available [here](https://gitlab.com/v_vandermeersch/um_thesis_template/-/blob/master/index.pdf).
 
 👉 This template is adapted from **Sylvain Schmitt's** [**PhD template**](https://github.com/sylvainschmitt/PhD).
