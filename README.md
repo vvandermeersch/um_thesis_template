@@ -56,7 +56,7 @@ department: 'UMR 5175 – Centre d’Ecologie Fonctionnelle et Evolutive - CNRS'
 
 ## Adding a chapter
 
-Create a `05-Chapter1.Rmd` file in [`/contents`](https://gitlab.com/v_vandermeersch/um_thesis_template/-/tree/master/contents).
+:pencil: Create a `05-Chapter1.Rmd` file in [`/contents`](https://gitlab.com/v_vandermeersch/um_thesis_template/-/tree/master/contents).
 Call this file in the [`index.Rmd`](https://gitlab.com/v_vandermeersch/um_thesis_template/-/blob/master/index.Rmd):
 
 ```
