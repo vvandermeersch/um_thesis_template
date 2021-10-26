@@ -7,7 +7,7 @@ A preview of the pdf is available [here](https://gitlab.com/v_vandermeersch/um_t
 
 ## Prerequesite
 
-You'll need to have the following software installed on your computer:
+You'll need to have the following softwares installed on your computer:
 
 * [R](https://www.r-project.org/) 
 * [Rstudio](https://rstudio.com/)
@@ -57,7 +57,8 @@ department: 'UMR 5175 – Centre d’Ecologie Fonctionnelle et Evolutive - CNRS'
 ## Adding a chapter
 
 Create a `05-Chapter1.Rmd` file in [`/contents`](https://gitlab.com/v_vandermeersch/um_thesis_template/-/tree/master/contents).
-Add this file in the [`index.Rmd`](https://gitlab.com/v_vandermeersch/um_thesis_template/-/blob/master/index.Rmd):
+Call this file in the [`index.Rmd`](https://gitlab.com/v_vandermeersch/um_thesis_template/-/blob/master/index.Rmd):
+
 ```
 <!-- Call the child documents -->
 ```{r body, child = c('contents/01-Acknowledgments.Rmd', 'contents/02-TOC.Rmd', 'contents/03-Resume.Rmd', 'contents/04-Introduction.Rmd',
