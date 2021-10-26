@@ -62,6 +62,5 @@ Call this file in the [`index.Rmd`](https://gitlab.com/v_vandermeersch/um_thesis
 ```
 <!-- Call the child documents -->
 ```{r body, child = c('contents/01-Acknowledgments.Rmd', 'contents/02-TOC.Rmd', 'contents/03-Resume.Rmd', 'contents/04-Introduction.Rmd',
-'contents/05-Chapter1.Rmd')}
-```
+'contents/05-Chapter1.Rmd')}```
 ```
