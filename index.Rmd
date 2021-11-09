@@ -15,6 +15,7 @@ output:
     toc: yes
     toc_depth: 3
     output_dir: "pdf"
+umtitlefont: true
 indent: true
 link-citations: yes
 lot: true

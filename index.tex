@@ -43,6 +43,8 @@
 % Fix footnotes in tables (requires footnote package)
 \IfFileExists{footnote.sty}{\usepackage{footnote}\makesavenoteenv{long table}}{}
 
+
+
 % graphics
 
 % indent
@@ -167,7 +169,14 @@
 
 % First pages
   \begin{titlepage}
+
+  $if(umtitlefont)$
+    $\fontfamily{phv}\fontseries{mc}\selectfont$
+  $endif$
+
     \newpage
+    
+
     
     \AddToShipoutPicture*{\BackgroundIm}
 
